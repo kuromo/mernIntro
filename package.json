@@ -1,0 +1,34 @@
+{
+  "name": "mernIntro",
+  "version": "1.0.0",
+  "description": "MERN stack tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuromo/mernIntro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuromo/mernIntro/issues"
+  },
+  "homepage": "https://github.com/kuromo/mernIntro#readme",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

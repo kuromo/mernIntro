@@ -1,2 +1,2 @@
 # mernIntro
-MERN stack tutorial
+MERN stack tutorial website
