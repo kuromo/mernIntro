@@ -26,7 +26,7 @@ class MainWrap extends React.Component {
                 <h1>Hello</h1>
 
             	<Route exact path="/" component={Home} />
-            	<Route path="tutorial" component={Tutorial} />                
+            	<Route path="/tutorial" component={Tutorial} />                
             </div>
         </Router>
     }
