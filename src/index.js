@@ -6,10 +6,11 @@ import Header from './components/Header';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './scss/app.scss';
 import 'bulma';
-import Logo from "./img/mernLogo.svg";
+
 
 
 class MainWrap extends React.Component {
+	
     render() {
         return <Router basename="/mernIntro">
 			
@@ -18,8 +19,6 @@ class MainWrap extends React.Component {
 			
 
             <div className="container">
-                <h1>Hello</h1>
-
             	<Route exact path="/" component={Home} />
             	<Route path="/tutorial" component={Tutorial} />                
             </div>

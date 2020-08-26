@@ -1,3 +1,11 @@
 {
-  "presets": ["env", "react"]
+  "presets": ["env", "react"],
+  "plugins": [
+    ["prismjs", {
+        "languages": ["javascript", "css", "markup", "jsx"],
+        "plugins": ["line-numbers", "match-braces"],
+        "theme": "okaidia",
+        "css": true
+    }]
+  ]
 }
