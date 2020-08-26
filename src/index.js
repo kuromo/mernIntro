@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Home from './components/Home';
 import Tutorial from './components/Tutorial';
+import Header from './components/Header';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './scss/app.scss';
 import 'bulma';
@@ -12,14 +13,8 @@ class MainWrap extends React.Component {
     render() {
         return <Router basename="/mernIntro">
 			
-				<nav className="navbar" role="navigation" aria-label="main navigation">
-					<div className="navbar-brand">
-						<Link to="/" className="navbar-item">
-							<img width="120" src={Logo} alt=""/>
-						</Link>
-					</div>
-					<Link to="/tutorial" className="navbar-item">Tutorial</Link>
-				</nav>
+				
+				<Header/>
 			
 
             <div className="container">
