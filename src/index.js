@@ -13,9 +13,9 @@ class MainWrap extends React.Component {
 			
 				<nav className="navbar" role="navigation" aria-label="main navigation">
 					<div className="navbar-brand">
-						<a className="navbar-item" href="/">
+						<Link to="/" className="navbar-item">
 							<img width="120" src={Logo} alt=""/>
-						</a>
+						</Link>
 					</div>
 					<Link to="/tutorial" className="navbar-item">Tutorial</Link>
 				</nav>
@@ -23,7 +23,7 @@ class MainWrap extends React.Component {
 
             <div className="container">
                 <h1>Hello</h1>
-                
+
             	<Route exact path="/" component={Home} />
             	<Route path="/tutorial" component={Tutorial} />                
             </div>
