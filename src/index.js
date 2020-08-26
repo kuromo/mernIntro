@@ -6,10 +6,13 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './scss/app.scss';
 import 'bulma';
 import Logo from "./img/mernLogo.svg";
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
 
 class MainWrap extends React.Component {
     render() {
-        return <Router>
+        return <Router history={history}>
 			
 				<nav className="navbar" role="navigation" aria-label="main navigation">
 					<div className="navbar-brand">
