@@ -6,13 +6,11 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './scss/app.scss';
 import 'bulma';
 import Logo from "./img/mernLogo.svg";
-import { createBrowserHistory } from "history";
 
-const history = createBrowserHistory();
 
 class MainWrap extends React.Component {
     render() {
-        return <Router history={history}>
+        return <Router basename="/mernIntro">
 			
 				<nav className="navbar" role="navigation" aria-label="main navigation">
 					<div className="navbar-brand">
@@ -28,7 +26,7 @@ class MainWrap extends React.Component {
                 <h1>Hello</h1>
 
             	<Route exact path="/" component={Home} />
-            	<Route path="/tutorial" component={Tutorial} />                
+            	<Route path="tutorial" component={Tutorial} />                
             </div>
         </Router>
     }
