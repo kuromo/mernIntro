@@ -10,20 +10,21 @@ import 'bulma';
 
 
 class MainWrap extends React.Component {
-	
-    render() {
-        return <Router basename="/mernIntro">
-			
-				
-				<Header/>
-			
 
-            <div className="container">
-            	<Route exact path="/" component={Home} />
-            	<Route path="/tutorial" component={Tutorial} />                
-            </div>
-        </Router>
-    }
+  render() {
+    return <Router basename="/mernIntro">
+             <Header/>
+             <div className="container">
+               <Route
+                      exact
+                      path="/"
+                      component={ Home } />
+               <Route
+                      path="/tutorial"
+                      component={ Tutorial } />
+             </div>
+           </Router>
+  }
 }
 
 let App = document.getElementById("app");

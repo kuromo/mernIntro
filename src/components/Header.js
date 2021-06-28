@@ -30,7 +30,7 @@ class Header extends React.Component {
 
 				<div className="navbar-end">
 					<Link to="/" className="navbar-item">
-						endItem
+						-endItem-
 					</Link>
 					
 				</div>
