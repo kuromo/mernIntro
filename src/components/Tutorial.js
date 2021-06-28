@@ -2,6 +2,7 @@ import React from 'react'
 import Prism from 'prismjs';
 import Test from './tutorials/Test'
 import Test2 from './tutorials/Test2'
+import Test3 from './tutorials/Test3'
 
 class Tutorial extends React.Component {
   render() {
