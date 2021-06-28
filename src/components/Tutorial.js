@@ -2,7 +2,7 @@ import React from 'react'
 import Prism from 'prismjs';
 import Test from './tutorials/Test'
 import Test2 from './tutorials/Test2'
-import Test3 from './tutorials/Test3'
+
 
 class Tutorial extends React.Component {
   render() {
@@ -13,8 +13,6 @@ class Tutorial extends React.Component {
         <Test/>
         <h3>Part 2:</h3>
         <Test2/>
-        <h3>Part 3:</h3>
-        <Test3/>
       </div>
     )
   }
